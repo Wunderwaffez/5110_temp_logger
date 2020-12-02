@@ -3,7 +3,7 @@ An **Arduino** based project that uses **Nokia 5110 screen as display** and **DS
 
 ## How It Works ?
 At start you set log interval (min: 0, max: 140) as minutes and press "OK" button to start the process.
-**Graph are is 72 pixels wide. If you log every one minute it takes 72 minutes to finish. For an example if you want to log the temperature of next 6 hours you have to set the interval to 5 minutes. 72*5 = 360 minutes, 360/60 = 6 hours. So the formula of the total time is : `logging interval * 72 = total minutes`, `total minutes / 60 = total hours`
+**Graph is 72 pixels wide. If you log every one minute it takes 72 minutes to finish. For an example if you want to log the temperature of next 6 hours you have to set the interval to 5 minutes. 72*5 = 360 minutes, 360/60 = 6 hours. So the formula of the total time is : `logging interval * 72 = total minutes`, `total minutes / 60 = total hours`**
 When it reaches %100, press "OK" button again to restart logging.
 
 ## Notes
