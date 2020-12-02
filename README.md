@@ -1,5 +1,5 @@
 # Nokia 5110 Temperature Logger
-An **Arduino** based project that uses **Nokia 5110 screen as display** and **DS18B20** temperature sensor.
+An **Arduino** based project that uses **Nokia 5110 screen as display** and **DS18B20** temperature sensor. Please read the whole text.
 
 ## How It Works ?
 At start you set log interval (min: 0, max: 140) as minutes and press "OK" button to start the process.
@@ -19,6 +19,9 @@ If you want to stop logging in the middle of the process press "reset" button on
 - LCD5110_Graph.h by **Henning Karlsen**
 - Wire.h
 - OneWire.h
+
+## Useful Links
+LCD_5110 library: http://www.rinkydinkelectronics.com/library.php?id=48 
 ---
 ![Fritzing Schematic](connections.jpg)
 
