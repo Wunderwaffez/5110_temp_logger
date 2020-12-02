@@ -11,6 +11,6 @@ An **Arduino** based project that uses **Nokia 5110 screen as display** and **DS
 - Wire.h
 - OneWire.h
 ---
-
+![Fritzing Schematic](connections.jpg)
 
 
